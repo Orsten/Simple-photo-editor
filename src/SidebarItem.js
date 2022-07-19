@@ -1,6 +1,6 @@
 import React from "react";
 
-const SiderbarItem = ({ name, active, handleClick }) => {
+function SidebarItem({ name, active, handleClick }) {
   return (
     <button
       className={`sidebar-item ${active ? "active" : ""}`}
@@ -9,6 +9,6 @@ const SiderbarItem = ({ name, active, handleClick }) => {
       {name}
     </button>
   );
-};
+}
 
-export default SiderbarItem;
+export default SidebarItem;
